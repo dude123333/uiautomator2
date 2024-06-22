@@ -271,7 +271,7 @@ class UiObject(object):
 
         # return self.jsonrpc.swipe(self.selector, direction, percent, steps)
 
-    def gesture(self, start1, start2, end1, end2, steps=100):
+    def gesture(self, start1, start2, end1, end2, steps=10):
         '''
         perform two point gesture.
         Usage:
